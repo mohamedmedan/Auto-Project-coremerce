@@ -1,0 +1,36 @@
+{
+  "report_title": "Coremerce Test Suite",
+  "base_url": "https://coremerce.ai/login",
+  "register_url": "https://coremerce.ai/register",
+  "profile_url": "https://coremerce.ai/profile",
+  "users_url": "https://coremerce.ai/users",
+  "browser": "chrome",
+  "headless": false,
+  "timeout": 20,
+  "implicit_wait": 5,
+  "step_delay": 0.8,
+  "report_dir": "reports",
+  "screenshots_dir": "reports/screenshots",
+  "credentials": {
+    "valid": {
+      "email": "tager@example.com",
+      "password": "1234"
+    },
+    "invalid": {
+      "email": "wrong.user@example.com",
+      "password": "WrongPass@123"
+    }
+  },
+  "register_user": {
+    "first_name": "Test",
+    "last_name": "User",
+    "email_domain": "gmail.com",
+    "country_code": "+20",
+    "mobile": "1009876543",
+    "password": "Test@1234"
+  },
+  "profile": {
+    "default_name": "tager",
+    "default_mobile": "01050050050"
+  }
+}

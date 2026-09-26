@@ -1,0 +1,21 @@
+{
+  "report_title": "Coremerce Test Suite",
+  "base_url": "https://coremerce.ai/login",
+  "register_url": "",
+  "browser": "chrome",
+  "headless": false,
+  "timeout": 15,
+  "implicit_wait": 5,
+  "report_dir": "reports",
+  "screenshots_dir": "reports/screenshots",
+  "credentials": {
+    "valid": {
+      "email": "REPLACE_WITH_VALID_EMAIL",
+      "password": "REPLACE_WITH_VALID_PASSWORD"
+    },
+    "invalid": {
+      "email": "wrong.user@example.com",
+      "password": "WrongPass@123"
+    }
+  }
+}
